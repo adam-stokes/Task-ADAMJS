@@ -1,7 +1,35 @@
-requires 'Mojolicious';
-requires 'App::nopaste';
-requires 'App::cpanoutdated';
+requires 'App::Cronjob';
 requires 'App::GitGot';
+requires 'App::Nopaste';
+requires 'App::cpanminus', '>= 1.7102';
+requires 'App::cpanoutdated';
+requires 'App::scan_prereqs_cpanfile';
+requires 'Carton', '>= 1.0.901';
+requires 'Curses';
+requires 'DateTime';
+requires 'Dist::Milla';
+requires 'Mango';
+requires 'Module::CPANfile', '>= 1.0905';
+requires 'Mojolicious';
+requires 'Net::FullAuto';
+requires 'Net::Launchpad';
+requires 'Net::Salesforce';
+requires 'Net::Twitter';
+requires 'Perl::Tidy::Sweetened';
+requires 'Pithub';
+requires 'Rex';
+requires 'Ubic';
+requires 'ph';
+requires 'App::Cmd';
+requires 'App::Ack';
+requires 'Dist::Zilla';
+requires 'Moose';
+requires 'JSON';
+requires 'List::AllUtils';
+requires 'namespace::autoclean';
+requires 'IO::Socket::SSL';
+requires 'Pod::Weaver';
+requires 'Text::Markdown';
 
 on test => sub {
     requires 'Test::More', '0.88';
