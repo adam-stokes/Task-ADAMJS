@@ -15,12 +15,12 @@ Task::ADAMJS - Perl application and libraries I use on a regular.
 
 =head1 SYNOPSIS
 
-  use Task::ADAMJS;
+  $ cpanm https://github.com/battlemidget/Task-ADAMJS.git
 
 =head1 DESCRIPTION
 
 Task::ADAMJS is collection of perl applications and libraries I find useful
-and frequently depend on.
+and frequently depend on. Check the B<cpanfile> for list of dependencies.
 
 =head1 AUTHOR
 
