@@ -57,7 +57,6 @@
             "Module::CPANfile" : "1.0905",
             "Mojolicious" : "0",
             "Moose" : "0",
-            "Net::FullAuto" : "0",
             "Net::Launchpad" : "0",
             "Net::Salesforce" : "0",
             "Net::Twitter" : "0",

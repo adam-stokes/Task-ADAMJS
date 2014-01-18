@@ -19,7 +19,6 @@ requires 'Mango';
 requires 'Module::CPANfile', '>= 1.0905';
 requires 'Mojolicious';
 requires 'Moose';
-requires 'Net::FullAuto';
 requires 'Net::Launchpad';
 requires 'Net::Salesforce';
 requires 'Net::Twitter';
