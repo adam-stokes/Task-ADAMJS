@@ -9,44 +9,46 @@
 
 use strict;
 use warnings;
-use App::cpanminus;
+use Mojo::UserAgent;
 
 our $VERSION = '1.0';
 
 # Get latest cpanm, carton, cpanfile
+eval Mojo::UserAgent->new->get(
+    'https://raw.github.com/miyagawa/cpanminus/devel/cpanm')->res->body;
+require App::cpanminus;
 
 my $cpanm = App::cpanminus::script->new;
 $cpanm->{argv} =
-  ['App::cpanminus@1.7102', 'Module::CPANfile@1.0905', 'Carton@1.0.901'];
+  [ qw/App::cpanminus@1.7102 Module::CPANfile@1.0905 Carton@1.0.901/ ];
 $cpanm->doit;
 
-$cpanm->{argv} = qw(
-  App::Ack
-  App::Cmd
-  App::Cronjob
-  App::GitGot
-  App::Nopaste
-  App::cpanoutdated
-  App::ph
-  App::scan_prereqs_cpanfile
-  Curses
-  DateTime
-  Dist::Milla
-  Dist::Zilla
-  IO::Socket::SSL
-  JSON
-  List::AllUtils
-  Mango
-  Mojolicious
-  Moose
-  Net::Launchpad
-  Net::Salesforce
-  Net::Twitter
-  Perl::Tidy::Sweetened
-  Pithub
-  Pod::Weaver
-  Rex
-  Text::Markdown
-  Ubic
-  namespace::autoclean);
+$cpanm->{argv} = [
+    qw/App::Ack
+       App::Cmd
+       App::Cronjob
+       App::GitGot
+       App::Nopaste
+       App::cpanoutdated
+       App::ph
+       App::scan_prereqs_cpanfile
+       Curses DateTime
+       Dist::Milla Dist::Zilla
+       IO::Socket::SSL
+       JSON
+       List::AllUtils
+       Mango
+       Mojolicious
+       Moose
+       Net::Launchpad
+       Net::Salesforce
+       Net::Twitter
+       Perl::Tidy::Sweetened
+       Pithub
+       Pod::Weaver
+       Rex
+       Text::Markdown
+       Ubic
+       namespace::autoclean/
+];
 $cpanm->doit;
