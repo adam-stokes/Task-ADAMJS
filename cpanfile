@@ -1,4 +1,4 @@
-requires 'Mojolicious';
+requires 'Mojo::UserAgent';
 
 on test => sub {
     requires 'Test::More', '0.88';
