@@ -26,12 +26,17 @@
    "prereqs" : {
       "configure" : {
          "requires" : {
-            "Module::Build::Tiny" : "0.031"
+            "Module::Build::Tiny" : "0.033"
          }
       },
       "develop" : {
          "requires" : {
             "Test::Pod" : "1.41"
+         }
+      },
+      "runtime" : {
+         "requires" : {
+            "Mojo::UserAgent" : "0"
          }
       },
       "test" : {
@@ -52,7 +57,7 @@
          "web" : "https://github.com/battlemidget/Task-ADAMJS"
       }
    },
-   "version" : "1.0",
+   "version" : "1.1",
    "x_contributors" : [
       "Adam Stokes <adam.stokes@ubuntu.com>"
    ]
