@@ -2,7 +2,7 @@ package Task::ADAMJS;
 
 use strict;
 use 5.008_005;
-our $VERSION = '0.01';
+our $VERSION = '1.0';
 
 1;
 __END__
@@ -16,6 +16,7 @@ Task::ADAMJS - Perl application and libraries I use on a regular.
 =head1 SYNOPSIS
 
   $ cpanm https://github.com/battlemidget/Task-ADAMJS.git
+  $ task-adamjs-install
 
 =head1 DESCRIPTION
 
