@@ -52,3 +52,11 @@ $cpanm->{argv} = [
        namespace::autoclean/
 ];
 $cpanm->doit;
+
+__END__
+
+=head1 NAME
+
+task-adamjs-install - Installer of commonly used perl dists
+
+=cut
