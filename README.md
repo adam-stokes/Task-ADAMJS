@@ -5,6 +5,7 @@ Task::ADAMJS - Perl application and libraries I use on a regular.
 # SYNOPSIS
 
     $ cpanm https://github.com/battlemidget/Task-ADAMJS.git
+    $ task-adamjs-install
 
 # DESCRIPTION
 
