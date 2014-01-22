@@ -44,6 +44,9 @@ $cpanm->{argv} = [
       Perl::Tidy::Sweetened
       Pithub
       Pod::Weaver
+      Pod::Weaver::Plugin::Encoding
+      Pod::Weaver::Section::SourceGitHub
+      Pod::Weaver::Section::WarrantyDisclaimer
       Rex
       Text::Markdown
       Ubic
