@@ -262,7 +262,6 @@ $cpanm->{argv} = [
       Params::Validate
       Path::Class
       Path::Tiny
-      Perl
       Perl::PrereqScanner
       Perl::Tidy
       Perl::Tidy::Sweetened
