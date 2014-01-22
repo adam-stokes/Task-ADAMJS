@@ -8,8 +8,8 @@ VERSION
 
 SYNOPSIS
 
-      $ cpanm https://github.com/battlemidget/Task-ADAMJS.git
-      $ task-adamjs-install
+      # cpanm https://github.com/battlemidget/Task-ADAMJS.git
+      # task-adamjs-install
 
 DESCRIPTION
 
