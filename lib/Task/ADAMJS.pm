@@ -1,4 +1,5 @@
 package Task::ADAMJS;
+# ABSTRACT: Libraries/Application I use regularly
 
 use strict;
 use 5.008_005;
@@ -6,12 +7,6 @@ our $VERSION = '1.1';
 
 1;
 __END__
-
-=encoding utf-8
-
-=head1 NAME
-
-Task::ADAMJS - Perl application and libraries I use on a regular.
 
 =head1 SYNOPSIS
 
@@ -22,20 +17,5 @@ Task::ADAMJS - Perl application and libraries I use on a regular.
 
 Task::ADAMJS is collection of perl applications and libraries I find useful
 and frequently depend on. Check the B<cpanfile> for list of dependencies.
-
-=head1 AUTHOR
-
-Adam Stokes E<lt>adamjs@cpan.orgE<gt>
-
-=head1 COPYRIGHT
-
-Copyright 2014- Adam Stokes
-
-=head1 LICENSE
-
-This library is free software; you can redistribute it and/or modify
-it under the same terms as Perl itself.
-
-=head1 SEE ALSO
 
 =cut
