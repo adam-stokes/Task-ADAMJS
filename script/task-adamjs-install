@@ -11,8 +11,6 @@ use strict;
 use warnings;
 use Mojo::UserAgent;
 
-our $VERSION = '1.0';
-
 # Get latest cpanm, carton, cpanfile
 eval Mojo::UserAgent->new->get(
     'https://raw.github.com/miyagawa/cpanminus/devel/cpanm')->res->body;
