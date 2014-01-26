@@ -1,4 +1,6 @@
 #!/usr/bin/env perl
+
+# PODNAME: task-adamjs-install
 # ABSTRACT: Install packages
 
 =head1 SYNOPSIS
@@ -376,10 +378,3 @@ $cpanm->{argv} = [
 $cpanm->doit;
 
 
-__END__
-
-=head1 NAME
-
-task-adamjs-install - Installer of commonly used perl dists
-
-=cut

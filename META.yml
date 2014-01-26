@@ -16,6 +16,6 @@ meta-spec:
   version: 1.4
 name: Task-ADAMJS
 requires:
-  perl: 5.008_005
   strict: 0
-version: 1.2
+  warnings: 0
+version: 1.3

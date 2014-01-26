@@ -1,5 +1,5 @@
-requires "perl" => "5.008_005";
 requires "strict" => "0";
+requires "warnings" => "0";
 
 on 'test' => sub {
   requires "Test::Mojo" => "0";

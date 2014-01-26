@@ -2,8 +2,7 @@ package Task::ADAMJS;
 # ABSTRACT: Libraries/Application I use regularly
 
 use strict;
-use 5.008_005;
-our $VERSION = '1.1';
+use warnings;
 
 1;
 __END__
