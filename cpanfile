@@ -1,3 +1,5 @@
+requires "App::cpanminus" => "0";
+requires "Mojo::UserAgent" => "0";
 requires "strict" => "0";
 requires "warnings" => "0";
 

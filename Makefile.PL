@@ -17,10 +17,14 @@ my %WriteMakefileArgs = (
     "ExtUtils::MakeMaker" => "6.30"
   },
   "DISTNAME" => "Task-ADAMJS",
-  "EXE_FILES" => [],
+  "EXE_FILES" => [
+    "bin/task-adamjs-install"
+  ],
   "LICENSE" => "perl",
   "NAME" => "Task::ADAMJS",
   "PREREQ_PM" => {
+    "App::cpanminus" => 0,
+    "Mojo::UserAgent" => 0,
     "strict" => 0,
     "warnings" => 0
   },
@@ -37,6 +41,8 @@ my %WriteMakefileArgs = (
 
 
 my %FallbackPrereqs = (
+  "App::cpanminus" => 0,
+  "Mojo::UserAgent" => 0,
   "Test::Mojo" => 0,
   "Test::More" => 0,
   "Test::NoTabs" => 0,

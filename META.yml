@@ -16,6 +16,8 @@ meta-spec:
   version: '1.4'
 name: Task-ADAMJS
 requires:
+  App::cpanminus: '0'
+  Mojo::UserAgent: '0'
   strict: '0'
   warnings: '0'
 version: '1.3'
