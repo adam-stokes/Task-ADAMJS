@@ -32,6 +32,7 @@ $cpanm->{argv} = [
       App::cpanoutdated
       App::ph
       App::scan_prereqs_cpanfile
+      App::HTTPThis
       Curses DateTime
       Dist::Milla Dist::Zilla
       IO::Socket::SSL
