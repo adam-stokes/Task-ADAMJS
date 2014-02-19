@@ -34,6 +34,8 @@ $cpanm->{argv} = [
       App::scan_prereqs_cpanfile
       App::HTTPThis
       Curses DateTime
+      Data::Format::Pretty
+      Data::Format::Pretty::YAML
       Dist::Milla Dist::Zilla
       IO::Socket::SSL
       JSON
@@ -340,6 +342,7 @@ $cpanm->{argv} = [
       Tree::DAG_Node
       Try::Tiny
       Types::Serialiser
+      UUID::Random
       UNIVERSAL::can
       UNIVERSAL::isa
       URI
