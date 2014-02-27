@@ -24,7 +24,8 @@ $cpanm->{argv} =
 $cpanm->doit;
 
 $cpanm->{argv} = [
-    qw/App::Ack
+    qw/--notest
+      App::Ack
       App::Cmd
       App::Cronjob
       App::GitGot
