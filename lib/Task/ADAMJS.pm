@@ -9,7 +9,7 @@ __END__
 
 =head1 SYNOPSIS
 
-  # cpanm https://github.com/battlemidget/Task-ADAMJS.git
+  # cpanm git@github.com:battlemidget/Task-ADAMJS.git
   # task-adamjs-install
 
 =head1 DESCRIPTION
