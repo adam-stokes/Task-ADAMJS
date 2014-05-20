@@ -4,11 +4,11 @@ NAME
 
 VERSION
 
-    version 1.3
+    version 1.4
 
 SYNOPSIS
 
-      # cpanm https://github.com/battlemidget/Task-ADAMJS.git
+      # cpanm git@github.com:battlemidget/Task-ADAMJS.git
       # task-adamjs-install
 
 DESCRIPTION
