@@ -1,5 +1,5 @@
-package Task::ADAMJS;
 # ABSTRACT: Libraries/Application I use regularly
+package Task::ADAMJS;
 
 use strict;
 use warnings;
@@ -14,10 +14,9 @@ use App::cpanoutdated;
 use App::ph;
 use App::scan_prereqs_cpanfile;
 use App::HTTPThis;
-use Curses DateTime;
+use DateTime;
 use Data::Format::Pretty;
 use Data::Format::Pretty::YAML;
-use Dist::Milla Dist::Zilla;
 use IO::Socket::SSL;
 use JSON;
 use List::AllUtils;
@@ -73,7 +72,6 @@ use Config::MVP::Reader::INI;
 use Config::MVP::Slicer;
 use Config::Tiny;
 use Crypt::SSLeay;
-use Curses;
 use DBI;
 use Data::MessagePack;
 use Data::OptList;
